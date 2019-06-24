@@ -8,7 +8,8 @@
 //]
 
 var colors = generateRandomNumber(6);
-
+var hname = location.host;
+document.getElementById("demo").innerHTML = hname;
 var squares = document.querySelectorAll(".square");
 var rgb = document.querySelector("#rgb");
 var try1 = document.querySelector("#try1");
